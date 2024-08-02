@@ -1,0 +1,110 @@
+.main-content{
+  width: 100%;
+  height: 100vh;
+  /* position: relative; */
+  /* z-index: 0; */
+}
+
+.container{
+  /* position: relative; */
+  /* z-index: 9999; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  align-items: center;
+
+
+}
+
+
+.bubbles{
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid white; */
+  /* z-index: 99; */
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+
+}
+
+.text-container{
+  /* width: 100%; */
+  height: 100%;
+font-size: 900;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+position: relative;
+align-items: left;
+z-index: 1;
+pointer-events: none;
+
+}
+.first-text{
+  text-align: left;
+  font-size: 2rem;
+
+}
+.second-text{
+  text-align: left;
+  font-size: 4rem;
+  font-weight: 900;
+}
+.third-text{
+  width: 75%;
+  text-align: left;
+  font-size: 2rem;
+}
+.scrollButton{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width : 1050px),(max-height:550px ) {
+  .text-container{
+    margin-left: 4%;
+  }
+  .first-text{
+    font-size: 1.5rem;
+  }
+  .second-text{
+    font-size: 2.5rem;
+  }
+  .third-text{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width : 850px){
+  .bubbles{
+    display: none;
+  }
+  .scrollButton{
+display: none;
+  }
+}
+
+
+@media screen and (max-width : 800px){
+  
+  .first-text{
+    font-size: 1.5rem;
+  }
+  .second-text{
+    font-size: 2.5rem;
+  }
+  .third-text{
+    font-size: 1.5rem;
+  }
+}
+
+
+

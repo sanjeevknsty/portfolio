@@ -1,0 +1,33 @@
+.project-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+  background-color: beige;
+  overflow: hidden,
+
+  /* justify-content: flex-start; */
+}
+.project-images{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  /* position: relative; */
+
+}
+.project-images img {
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+}
+
+.project-info{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
