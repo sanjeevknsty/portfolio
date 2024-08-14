@@ -46,7 +46,7 @@ const Header = ({setEvent,event}) => {
             </div>
             <ul className= "right-content">
               <li className="item">
-                <a className="link"  rel="noreferrer"  target='_blank' href="/"><Insta fill="#ccc" width="100%" height="100%" /></a>
+                <a className="link"  rel="noreferrer"  target='_blank' href="https://www.instagram.com/sanjeev.k.10?igsh=MWtlOHljY2tlYmc5cQ=="><Insta fill="#ccc" width="100%" height="100%" /></a>
               </li>
               <li className="item">
                 <a className="link" target='_blank' rel="noreferrer" href="https://github.com/sanjeevknsty"><Github fill='#ccc' width="100%" height="100%" /></a>
@@ -58,7 +58,7 @@ const Header = ({setEvent,event}) => {
                 <a className="link" target='_blank' rel="noreferrer" href="/"><Gmail fill="#ccc" width="100%" height="100%" /></a>
               </li>
               <li className="item">
-                <a className="link" target='_blank' rel="noreferrer" href="/"><Linkedln fill="#ccc" width="100%" height="100%" /></a>
+                <a className="link" target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/sanjeev-konisetty-6a96b62a4/"><Linkedln fill="#ccc" width="100%" height="100%" /></a>
               </li>
 
             </ul>
