@@ -31,7 +31,7 @@ const Sidebar = ({event}) => {
                 <Link className="link"  activeClass='active' smooth={true} to="/" offset={0} duration={500} spy={true} onClick={scrollToTop}>Home</Link>
               </li>
               <li className="item-side" >
-                <Link className="link" activeClass='active' smooth={true} to="skills" offset={0} duration={500} spy={true}>Skills</Link>
+                <Link className="link" activeClass='active' smooth={true} to="ski" offset={0} duration={500} spy={false}>Skills</Link>
               </li>
               <li className="item-side" >
                 <Link className="link" activeClass='active' smooth={true} to="resume" offset={0} duration={500} spy={true}>Resume</Link>

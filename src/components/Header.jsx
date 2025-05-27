@@ -37,7 +37,7 @@ const Header = ({setEvent,event}) => {
       <div className={!color ? "nav" : "nav nav-color"}>
         <div className='nav-container'>
           <div className="left-section">
-            <Link className="portfolio" smooth={true} spy={true} activeClass='active' offset={0} to="/">PORTFOLIO</Link>
+            <Link className="portfolio" smooth={true} spy={true} activeClass='active' offset={0} to="/" style={{fontFamily:'"Orbitron", sans-serif',fontSize:"2rem"}}>SANJEEV'S</Link>
           </div>
 
           <div className='right-section'>

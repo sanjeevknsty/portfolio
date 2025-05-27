@@ -25,15 +25,15 @@ const Main = () => {
 
           <div className='text-container'>
             <div className='first-text'>HI I'M</div>
-            <div className='second-text'>KONISETTY SANJEEV</div>
-            <div className='third-text'>
+            <div className='second-text' style={{fontFamily:'"Orbitron", sans-serif'}}>KONISETTY SANJEEV</div>
+            <div className='third-text'  style={{fontFamily:'"Orbitron", sans-serif'}}>
               <p>MERN Developer</p>
               I make Creative, interactive and performant web apps.
               I love to build thing that stand out.</div>
           </div>
 
           <div className="scrollButton">
-           <Link  activeClass='active' smooth={true} to="about" offset={0} duration={500} spy={true} > <Button text={'scroll Here'} /> </Link>
+           <Link  activeClass='active' smooth={true} to="ski" offset={0} duration={500} spy={true} > <Button text={'scroll Here'} /> </Link>
           </div>
         </div>
       </div>

@@ -97,7 +97,7 @@ const About = () => {
         </div>
         <div className="mail">
           <div className="email" id='myMail' onClick={toCopy}>
-            <span className='mailSpan'>ksanjeev0359@gmail.com</span>
+            <span  style={{fontFamily:'"Orbitron", sans-serif'}} className='mailSpan'>ksanjeev0359@gmail.com</span>
             <div className="to-copy" ><Button  text ={copy}/></div>
             
           </div>

@@ -10,13 +10,14 @@ import About from './components/About';
 function App() {
 
   return (
-    <div className="App">
-    <Main id="/"/>
-    <Skills id="skills"/>
-    <Resume id="resume"/>
-    <ProjectsFile id="project"/>
-    <About id="about"/>
+       <div className="App">
+      <div id="/"> <Main /> </div>
+      <div id="ski"> <Skills /> </div>
+      <div id="resume"> <Resume /> </div>
+      <div id="project"> <ProjectsFile /> </div>
+      <div id="about"> <About /> </div>
     </div>
+
   );
 }
 

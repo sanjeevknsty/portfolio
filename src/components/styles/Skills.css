@@ -1,30 +1,32 @@
 .containerSkills{
   width: 100%;
-  height: 100vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
 }
-.left-content{
-  width: 100%;
-  /* height: 100%; */
+
+.top-content{
+    height: 100vh;
+
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
 }
-
 .equal-size-table {
-  width: 70%;
-  height: 70%;
+
+    width: 80%;
   border-collapse: collapse;
+  overflow: hidden;
+
 }
 
-/* Styling for table cells */
 .equal-size-table td {
+
   border: 1px solid #ddd;
   text-align: center;
-  width: 15%; /* Ensure equal width for each cell */
-  height: 10%; /* Ensure equal height for each cell */
+  width: 15%; 
+  height: 10%; 
 }
 
 #svg-image:hover{
