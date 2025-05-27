@@ -22,7 +22,6 @@ import { CustomTableCell, CustomTableContainer } from './Font';
 const Skills = () => {
  const windowRef = useRef(null);
   const hoverContainerRef = useRef(null);
-  const tableRowRefs = useRef([]);
     //      useEffect(()=>{
     // document.addEventListener('mousemove', (tip) => {
     //         document.querySelector('.window').style.top = `${tip.clientY}px`

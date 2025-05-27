@@ -14,7 +14,6 @@ fontSize: '4rem',
   maxWidth: '100%',
   padding:5,
   position: 'relative',
-  overflow: 'hidden',
   zIndex: 1,
   transition: 'color 0.4s ease-in-out',
 
