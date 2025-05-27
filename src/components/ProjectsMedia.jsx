@@ -10,6 +10,51 @@ const ProjectsMedia = () => {
         <img src={img} alt="project4" className="card-img-top"/>
         <div className="card-body">
           <div className="description-media">
+            <div className="tittle-media"> <b>DeepAgro</b> </div>          
+
+            <ul className="skills-media">
+             <li>React.js</li>
+                                        <li>Express.js</li>
+                                        <li>MongoDb</li>
+                                        <li>CNN</li>
+                                        <li>Python</li>
+                                        <li>DeepLearning</li>
+            </ul>
+
+            <div className="info-media"> Developed DeepAgro, an AI-powered web platform integrating CNN-based paddy disease detection, expert
+                                        consultations, and agri-product e-commerce using the MERN stack. Enabled real-time crop health analysis and
+                                        treatment recommendations through image classification. Streamlined farmer–expert interaction and digitalized
+                                        agricultural resource management.
+              </div>
+          </div>
+         </div>
+      </div>
+      <div className="card">
+        <img src={img} alt="project4" className="card-img-top"/>
+        <div className="card-body">
+          <div className="description-media">
+            <div className="tittle-media"> <b>Realtime Chat App</b> </div>          
+
+            <ul className="skills-media">
+              <li>React.js</li>
+                                        <li>Express.js</li>
+                                        <li>MongoDb</li>
+                                        <li>RestAPI</li>
+                                        <li>Cloudinary</li>
+                                        <li>Socket.io</li>
+            </ul>
+
+            <div className="info-media">Clients connect to the Socket.io server. When a user sends a message, the server stores it in MongoDB Atlas. The
+                                        server broadcasts the message to all connected clients. Clients receive the message with a Notification and
+                                        update their UI in real-time.
+               </div>
+          </div>
+         </div>
+      </div>
+      <div className="card">
+        <img src={img} alt="project4" className="card-img-top"/>
+        <div className="card-body">
+          <div className="description-media">
             <div className="tittle-media"> <b>iNoteBook</b> </div>          
 
             <ul className="skills-media">
@@ -44,21 +89,7 @@ const ProjectsMedia = () => {
           </div>
          </div>
       </div>
-      <div className="card"   >
-        <img src={img} alt="project4" className="card-img-top" />
-        <div className="card-body">
-          <div className="description-media">
-            <div className="tittle-media"> Spotify Data Analysis - DBMS</div>
-            <ul className="skills-media">
-              <li>Numpy</li>
-              <li>MatPlot</li>
-              <li>Pandas</li>
-              <li>Seaborn</li>
-            </ul>
-            <div className="info-media">The spotify data was taken from kaggle and used to analyze/visualize in different ways using python libraries</div>
-          </div>
-         </div>
-      </div>
+
       <div className="card"   >
         <img src={img} alt="project4" className="card-img-top" />
         <div className="card-body">

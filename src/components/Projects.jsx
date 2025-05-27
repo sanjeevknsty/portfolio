@@ -79,7 +79,7 @@ const Projects = () => {
     );
 
     return (
-        <div  ref={container} >
+        <div ref={container} >
             <div id="main">
                 <div className="part-3">
                     <div className="our-work-text">
@@ -112,6 +112,12 @@ const Projects = () => {
 
 
                                 </div>
+                                <div className="images">
+                                    {/* <Laptop   width='100%' height="100%"   alt="project3" className="img-pro" /> */}
+                                    <img src={img} alt="project1" className="img-pro" />
+
+
+                                </div>
 
                                 <div className="images">
                                     {/* <Laptop width='100%' height="100%"   alt="project4" className="img-pro" /> */}
@@ -132,6 +138,41 @@ const Projects = () => {
                                     <div className="tittle">MY PROJECTS</div>
                                 </div>
                                 <div className="description">
+                                    <div className="tittle"> DeepAgro</div>
+                                    <ul className='project-skills'>
+                                        <li>React.js</li>
+                                        <li>Express.js</li>
+                                        <li>MongoDb</li>
+                                        <li>CNN</li>
+                                        <li>Python</li>
+                                        <li>DeepLearning</li>
+                                    </ul>
+                                    <div className="info">
+                                        Developed DeepAgro, an AI-powered web platform integrating CNN-based paddy disease detection, expert
+                                        consultations, and agri-product e-commerce using the MERN stack. Enabled real-time crop health analysis and
+                                        treatment recommendations through image classification. Streamlined farmer–expert interaction and digitalized
+                                        agricultural resource management.
+                                    </div>
+                                </div>
+
+                                <div className="description">
+                                    <div className="tittle"> Realtime Chat App</div>
+                                    <ul className='project-skills'>
+                                        <li>React.js</li>
+                                        <li>Express.js</li>
+                                        <li>MongoDb</li>
+                                        <li>RestAPI</li>
+                                        <li>Cloudinary</li>
+                                        <li>Socket.io</li>
+
+                                    </ul>
+                                    <div className="info"> Clients connect to the Socket.io server. When a user sends a message, the server stores it in MongoDB Atlas. The
+                                        server broadcasts the message to all connected clients. Clients receive the message with a Notification and
+                                        update their UI in real-time.
+                                    </div>
+                                </div>
+
+                                <div className="description">
                                     <div className="tittle"> <b>iNoteBook</b> </div>
                                     <ul className='project-skills'>
                                         <li>Reactjs</li>
@@ -143,7 +184,6 @@ const Projects = () => {
                                     <div className="info">A website in which User can store his Notes and access it anytime and also User can add Events ,Update and Delete his Notes,Every
                                         user should login with credentials to access their notes </div>
                                 </div>
-
                                 <div className="description">
                                     <div className="tittle"> DailyNews</div>
                                     <ul className='project-skills'>
@@ -155,16 +195,8 @@ const Projects = () => {
                                     <div className="info">Daily News is an Website Where one can get access to daily updated News, can read News Category Wise, Can Search for desired
                                         News and also Designed a user-friendly interface</div>
                                 </div>
-                                <div className="description">
-                                    <div className="tittle"> Spotify Data Analysis - DBMS</div>
-                                    <ul className='project-skills'>
-                                        <li>Numpy</li>
-                                        <li>MatPlot</li>
-                                        <li>Pandas</li>
-                                        <li>Seaborn</li>
-                                    </ul>
-                                    <div className="info">The spotify data was taken from kaggle and used to analyze/visualize in different ways using python libraries</div>
-                                </div>
+
+
                                 <div className="description">
                                     <div className="tittle"> Complete Dynamic Weather Website</div>
                                     <ul className='project-skills'>
@@ -180,8 +212,8 @@ const Projects = () => {
                     </div>
                 </div>
 
-            </div>  
-         </div>
+            </div>
+        </div>
     )
 }
 
