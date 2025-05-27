@@ -8,35 +8,33 @@ const Button = ({ text }) => {
   const buttonRef = useRef(null);
   const textRef = useRef(null);
 
-  useEffect(() => {
-    if (!buttonRef.current || !textRef.current) return;
+ useEffect(() => {
+  if (!buttonRef.current || !textRef.current) return;
 
-    const splitWord = new SplitType(textRef.current, { types: "chars" });
+  const buttonElement = buttonRef.current; // Store ref value
+  const splitWord = new SplitType(textRef.current, { types: "chars" });
 
-    const handleMouseOver = () => {
-      gsap.fromTo(
-        splitWord.chars,
-        { y: -20, opacity: 0, transformOrigin: "top" },
-        { y: 0, opacity: 1, stagger: 0.07 }
-      );
-    };
+  const handleMouseOver = () => {
+    gsap.fromTo(
+      splitWord.chars,
+      { y: -20, opacity: 0, transformOrigin: "top" },
+      { y: 0, opacity: 1, stagger: 0.07 }
+    );
+  };
 
-    const handleMouseOut = () => {
-      gsap.to(splitWord.chars, {
-        opacity: 0,
-        y: -15,
-        stagger: 0.01
-      });
-    };
+  const handleMouseOut = () => {
+    gsap.to(splitWord.chars, { opacity: 0, y: -15, stagger: 0.01 });
+  };
 
-    buttonRef.current.addEventListener("mouseenter", handleMouseOver);
-    buttonRef.current.addEventListener("mouseleave", handleMouseOut);
+  buttonElement.addEventListener("mouseenter", handleMouseOver);
+  buttonElement.addEventListener("mouseleave", handleMouseOut);
 
-    return () => {
-      buttonRef.current.removeEventListener("mouseenter", handleMouseOver);
-      buttonRef.current.removeEventListener("mouseleave", handleMouseOut);
-    };
-  }, [text]); // Re-initialize when text changes
+  return () => {
+    buttonElement.removeEventListener("mouseenter", handleMouseOver);
+    buttonElement.removeEventListener("mouseleave", handleMouseOut);
+  };
+}, [text]); // Re-initialize when text changes
+
 
   return (
     <div ref={container}>
